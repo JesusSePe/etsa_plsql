@@ -1,3 +1,4 @@
+ALTER SESSION SET NLS_DATE_FORMAT='dd/mm/yyyy';
 DROP TABLE Order2;
 DROP TABLE Office;
 DROP TABLE Supplier;
@@ -53,7 +54,7 @@ CREATE TABLE Office
   INSERT INTO Office VALUES (Upper('Ofes1'),'ESPLUGUES DE LLOBREGAT','BARCELONA',2000,1000,40);
   INSERT INTO Office VALUES (Upper('Ofho1'),'HOSPITALET DE LLOBREGAT','BARCELONA',1900,100,40);
   INSERT INTO Office VALUES (Upper('Ofmo1'),'MOSTOLES','MADRID',40000,33200,40);
-  INSERT INTO Office VALUES (UPPER('OFVI1'),'VILLACAÑAS','TOLEDO',20000,4000,null);
+  INSERT INTO Office VALUES (UPPER('OFVI1'),'VILLACAÃ‘AS','TOLEDO',20000,4000,null);
 
 Create Table Customer
   (Customer_Code	NUMBER(9),
@@ -74,10 +75,10 @@ Create Table Customer
     VALUES (12,UPPER('JPC Inc.'),UPPER('C/. MARIA DEL PI, 19'),'08940',TO_DATE('12/11/1965','dd/mm/yyyy'),'JPC@gmail.com');
 
   INSERT INTO Customer
-    VALUES (13,UPPER('Todo Ordenadores'),UPPER('Polígono, nave 2'),'08940',null,null);
+    VALUES (13,UPPER('Todo Ordenadores'),UPPER('PolÃ­gono, nave 2'),'08940',null,null);
 
   INSERT INTO Customer
-    VALUES (14,UPPER('System S.A.'),UPPER('Polígono, nave 24'),'08940',TO_DATE('17/04/1980','dd/mm/yyyy'),'SYSTEM@gmail.com');
+    VALUES (14,UPPER('System S.A.'),UPPER('PolÃ­gono, nave 24'),'08940',TO_DATE('17/04/1980','dd/mm/yyyy'),'SYSTEM@gmail.com');
 
 CREATE TABLE Product	
   (Product_Code VARCHAR2(8),

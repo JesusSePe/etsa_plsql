@@ -3,7 +3,7 @@ Gestionar comandas:
 -> Restricciones(Alta comanda) Adrián
 -> Restricciones(baixa comanda) Alex
 -> Restricciones(modificació comanda) Pau
--> Resticicones (Consulta comanda) Jesús
+-> Restricicones (Consulta comanda) Jesús
 
 Altres gestions:
 -> Gestiona usuarios Adrián
